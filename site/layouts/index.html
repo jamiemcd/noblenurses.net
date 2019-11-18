@@ -1,13 +1,62 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+{{ partial "jumbotron-bls-acls-pals" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
-{{ partial "short-text" .Params.blurb}}
+<div class="flex-m mhn3-m mb1 mw7 center pv3">
 
-{{ partial "2-up" .Params }}
+  <div class="ph3-ns ph3 w-50-m">
+    <h3 class="f3 b lh-title mb2">Welcome to Noble Nurses</h3>
+    <p>We provide onsite CPR certification in the Central Kentucky area.</p>
+    <p>Healthcare providers of all types are required to renew their American Heart Association credentials every two years. Noble Nurses makes this convenient by coming to your home or place of business. Same-day service is available.</p>
+    <p>Whether you need to obtain or renew your BLS, ACLS, or PALS certifications, Noble Nurses provides training in a relaxed and enjoyable environment. Call today to schedule your next certification course!</p>
+  </div>
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+  <div class="ph3-ns ph3 w-50-m">
+    <img src="/img/chris-noble-whiteboard.jpg" alt="" class="db mb2">
+  </div>
 
-{{ partial "blog" . }}
+
+
+</div>
+
+
+<div class="bg-off-white pv4">
+  <div class="ph3 mw7 center">
+
+
+
+
+
+    <div class="flex-ns mhn2-ns mb3">
+
+      <div class="pr3-ns w-50-ns">
+        <img src="/img/chris-noble-cadillac.jpg" alt="" class="center db mb3" style="width: 400px">
+        <h3 class="f3 b tc-ns lh-title mb2">Certification at Your Office</h3>
+        <p>For your convenience Noble Nurses will come to your place of business for CPR training. This is a popular service for hospitals, doctor's and dentist's offices, nursing homes, companies, stores, daycares, and churches. A travel fee is added for locations outside of Lexington, Kentucky.</p>
+      </div>
+      <div class="pl3-ns w-50-ns">
+        <img src="/img/noble-nurses-door.jpg" alt="" class="center db mb3" style="width: 400px">
+        <h3 class="f3 b tc-ns lh-title mb2">Certification at Our Office</h3>
+        <p>Noble Nurses is located at <a href="https://g.page/BLSLexington?share">157 Prosperious Place Suite 2-B</a> in Lexington, Kentucky. You will feel at home in our cozy office space. Our classroom is setup for individual and group CPR training.</p>
+      </div>
+
+    </div>
+
+    <div class="tc">
+      <img src="/img/noble-nurses-logo-800x800.png" alt="Noble Nurses Logo" class="center db mb3" style="width: 200px">
+      <a href="/contact" class="btn raise">Contact Noble Nurses</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
 
 {{ end }}

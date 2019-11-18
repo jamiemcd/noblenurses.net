@@ -24,10 +24,28 @@
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="business.business">
-	<meta property="og:title" content="Kaldi | Great coffee with a conscience">
+	<meta property="og:title" content="Noble Nurses LLC | CPR BLS ACLS PALS Certification Lexington Kentucky">
 	<meta property="og:url" content="/">
 	<meta property="og:image" content="/img/og-image.jpg">
 
+  <style media="screen">
+    /*Navbar*/
+
+    .menu {
+      min-height: 3rem;
+      max-height: 0;
+      transition: max-height 0.4s;
+    }
+
+    #burger:checked ~ .menu {
+      max-height: 25rem;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.25);
+    }
+
+
+  </style>
+
+  <script src="https://kit.fontawesome.com/cf80c5a2b0.js" crossorigin="anonymous"></script>
   {{ if .IsHome }}
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {{ end }}
