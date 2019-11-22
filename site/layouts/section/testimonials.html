@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+<div class="flex-m mhn3-m mb4 mw7 center pv3">
+
+  <div class="ph3-m w-50-m order-last-m">
+    <img src="/img/snoopy-thank-you-card.jpg" alt="" class="db mb2">
+  </div>
+
+  <div class="ph3-m w-50-m">
+    <h3 class="f3 b lh-title mb2">Testimonials</h3>
+    <p>Noble Nurses is proud to have so many satisfied and repeat customers!</p>
+    <p>We have listed below some of the nice things you have said to us after completing a class.<p>
+    <p>We appreciate your business. Thank you for continuing to trust Noble Nurses with your educational needs!</p>
+  </div>
+
+</div>
+        
+
+        <div class="pb4">
+          {{ range .Params.testimonials }}
+            {{ partial "blockquote" . }}
+          {{ end }}
+        </div>
+        
+
+
+        
+
+
+
+{{ end }}
+
+
+
+
+
+
+
+

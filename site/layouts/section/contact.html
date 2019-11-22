@@ -3,17 +3,29 @@
 <div class="ph3 bg-off-white">
 	<div class="center mw6 pv3">
 
-		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
+		<img src="/img/noble-nurses-logo-800x800.png" alt="Noble Nurses Logo" class="db w4 center pv4" style="width: 200px">
 
-		{{ .Content }}
 
-		<div class="flex-ns mb3">
-	        	{{ range .Params.contact_entries }}
+		<p>Noble Nurses, LLC is committed to exceeding your needs. Questions, comments or special requests? We’d love to hear from you, so don’t hesitate in reaching out today.  We will make every attempt to respond to your inquiries within 24 hours.</p>
+
+		<div class="flex flex-column mb3">
+
+			<div>
+				<h4 class="f4 b lh-title mb2 primary">Phone</h4>
+				<p>(859) 333-7754</p>
+			</div>
 				<div>
-					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-					<p>{{ .text }}</p>
+					<h4 class="f4 b lh-title mb2 primary">Email</h4>
+					<p><a href="mailto:Chris.Noble@NobleNurses.net">Chris.Noble@NobleNurses.net</a></p>
 				</div>
-			{{ end }}
+				<div>
+					<h4 class="f4 b lh-title mb2 primary">Address</h4>
+					<p>Noble Nurses, LLC<br>
+						157 Prosperous Place, Suite 2-B<br>
+						Lexington, KY 40509</p>
+				</div>
+
+
 		</div>
 
 		{{ partial "contact-form" . }}
