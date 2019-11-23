@@ -1,5 +1,5 @@
 ---
-title: American Red Cross CPR Classes Lexington, Kentucky
+title: Noble Nurses Lexington, Kentucky
 heading: "CPR Classes"
 text: >
     Noble Nurses is proud to have so many satisfied and repeat customers!  We

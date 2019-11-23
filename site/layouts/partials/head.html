@@ -32,7 +32,6 @@
     /*Navbar*/
 
     .menu {
-      min-height: 3rem;
       max-height: 0;
       transition: max-height 0.4s;
     }
@@ -42,8 +41,18 @@
       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.25);
     }
 
-
   </style>
+
+<style media="screen and (min-width: 60em)">
+  /* Navbar for --breakpoint-large */
+
+  .menu {
+    min-height: 3rem;
+
+  }
+
+</style>
+
 
   <script src="https://kit.fontawesome.com/cf80c5a2b0.js" crossorigin="anonymous"></script>
   {{ if .IsHome }}

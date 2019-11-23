@@ -1,6 +1,6 @@
 ---
-title: Testimonials
-heading: "Testimonials"
+title: Customer Testimonials
+heading: "Customer Testimonials"
 text: >
     Noble Nurses is proud to have so many satisfied and repeat customers!  We
     have listed below some of the nice things you have said to us! Know that we
