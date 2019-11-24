@@ -237,13 +237,10 @@ testimonials:
       I had a great experience with Noble Nurses!  Chris was very helpful with getting me my BLS class before my expiration.
   - author: Blair Frias, MSN, APRN, RN
     quote: >-
-      Chris noble provides education in a relaxed atmosphere, creating what i normally an overwhelming experience, much more comfortable.  He is knowledgeable, helpful, and puts you at ease.
+      Chris Noble provides education in a relaxed atmosphere, creating what i normally an overwhelming experience, much more comfortable.  He is knowledgeable, helpful, and puts you at ease.
   - author: Robin DellAntonia
     quote: >-
       Thorough and applicable to job description.
-  - author: Brandi Blanchard
-    quote: >-
-      Really enjoyed the course.  Very interactive and
   - author: LeShanna Mitchell
     quote: >-
       Very good class!  The instructor was great!
@@ -256,9 +253,6 @@ testimonials:
   - author: Jessica Carbotti
     quote: >-
       Course was thorough and engaging.  Best CPR renewal class I've ever taken!!
-  - author: Jessica O'Reel, PA
-    quote: >-
-      Wonderful experience.  Would recommend to all providers.  Will definitely be coming back for all of my renewals.  Than
   - author: Lauren Sargent, RN
     quote: >-
       Chris was very flexible and accommodating! I needed to obtain my re-certification in BLS and the process was easy and convenient!
