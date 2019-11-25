@@ -12,6 +12,24 @@
 
 [[redirects]]
   from = "https://www.noblenurses.net/cpr-bls-acls-pals-lexington-ky"
-  to = "https://www.noblenurses.net/aha-cpr-bls-acls-pals-lexington-kentucky/"
+  to = "https://www.noblenurses.net/aha-cpr-bls-acls-pals-lexington-kentucky"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://www.noblenurses.net/service-pricing"
+  to = "https://www.noblenurses.net/aha-cpr-bls-acls-pals-lexington-kentucky"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://www.noblenurses.net/blank-page-1"
+  to = "https://www.noblenurses.net/about"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+  [[redirects]]
+  from = "https://www.noblenurses.net/blank-page"
+  to = "https://www.noblenurses.net/testimonials"
   status = 301
   force = true #COMMENT: ensure that we always redirect
