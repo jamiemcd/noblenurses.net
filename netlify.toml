@@ -9,3 +9,9 @@
 
 [context.deploy-preview]
   command = "yarn build:preview"
+
+[[redirects]]
+  from = "https://www.noblenurses.net/cpr-bls-acls-pals-lexington-ky"
+  to = "https://www.noblenurses.net/aha-cpr-bls-acls-pals-lexington-kentucky/"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
