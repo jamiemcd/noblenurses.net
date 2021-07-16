@@ -28,8 +28,14 @@
   status = 301
   force = true #COMMENT: ensure that we always redirect
 
-  [[redirects]]
+[[redirects]]
   from = "https://www.noblenurses.net/blank-page"
   to = "https://www.noblenurses.net/testimonials"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://www.noblenurses.net/write-a-review"
+  to = "https://search.google.com/local/writereview?placeid=ChIJ90A7o6VPQogRVuyUoGNEonc"
   status = 301
   force = true #COMMENT: ensure that we always redirect
