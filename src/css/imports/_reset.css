@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-input, textarea {
+input, textarea, select {
 	font-size: var(--spacing-medium);
 	border: none;
 	font-family: inherit;
